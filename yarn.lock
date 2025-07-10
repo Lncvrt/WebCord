@@ -268,9 +268,10 @@
   optionalDependencies:
     global-agent "^3.0.0"
 
-"@electron/node-gyp@git+https://github.com/electron/node-gyp.git#06b29aafb7708acef8b3669835c8a7857ebc92d2":
+"@electron/node-gyp@https://github.com/electron/node-gyp#06b29aafb7708acef8b3669835c8a7857ebc92d2":
   version "10.2.0-electron.1"
-  resolved "git+https://github.com/electron/node-gyp.git#06b29aafb7708acef8b3669835c8a7857ebc92d2"
+  uid "06b29aafb7708acef8b3669835c8a7857ebc92d2"
+  resolved "https://github.com/electron/node-gyp#06b29aafb7708acef8b3669835c8a7857ebc92d2"
   dependencies:
     env-paths "^2.2.0"
     exponential-backoff "^3.1.1"
@@ -1005,10 +1006,10 @@ electron-winstaller@^5.3.0:
   optionalDependencies:
     "@electron/windows-sign" "^1.1.2"
 
-electron@36.4.0:
-  version "36.4.0"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-36.4.0.tgz#9463bf5fa7565ae7be3a274f7f6a46359bcfe74d"
-  integrity sha512-LLOOZEuW5oqvnjC7HBQhIqjIIJAZCIFjQxltQGLfEC7XFsBoZgQ3u3iFj+Kzw68Xj97u1n57Jdt7P98qLvUibQ==
+electron@36.7.0:
+  version "36.7.0"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-36.7.0.tgz#f2d0672393a78129e10319fbb76934ed9336105d"
+  integrity sha512-KQA/abWa+aGWDuEJn9hL5Lo0BYJIUYJ6iON8xoxcpnnNxIvj1VsuowcE1p9j4V9OWVCfOkRc9/NaxLwg7HK0zw==
   dependencies:
     "@electron/get" "^2.0.0"
     "@types/node" "^22.7.7"
