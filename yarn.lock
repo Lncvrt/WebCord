@@ -140,13 +140,20 @@
   dependencies:
     "@electron-forge/shared-types" "7.8.1"
 
-"@electron-forge/plugin-fuses@7.8.1":
-  version "7.8.1"
-  resolved "https://registry.yarnpkg.com/@electron-forge/plugin-fuses/-/plugin-fuses-7.8.1.tgz#47a58de044c92c216d3c54527ad0af02017aa540"
-  integrity sha512-dYTwvbV1HcDOIQ0wTybpdtPq6YoBYXIWBTb7DJuvFu/c/thj1eoEdnbwr8mT9hEivjlu5p4ls46n16P5EtZ0oA==
+"@electron-forge/plugin-base@7.8.3":
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/@electron-forge/plugin-base/-/plugin-base-7.8.3.tgz#2def4cf41aca2f63c3486e651487571efafc284b"
+  integrity sha512-0CzPQlO3BGu5bLCrx2Xqo6B1yoHhA9wG9boZE58ANr8Qma1NQfAWZU3LnMmF3EdWNTX76PxpZeeb3QbPNcxSuA==
   dependencies:
-    "@electron-forge/plugin-base" "7.8.1"
-    "@electron-forge/shared-types" "7.8.1"
+    "@electron-forge/shared-types" "7.8.3"
+
+"@electron-forge/plugin-fuses@7.8.3":
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/@electron-forge/plugin-fuses/-/plugin-fuses-7.8.3.tgz#f2a278b993c660c708e5855bb4ae9ec7629c7a61"
+  integrity sha512-OPWfoVsQ3xzK7GB3C6zoGlUu21RCOEQAm5+zg9VP1HJg5dsrKkqU8A2DsHGxe7PHthUCuQUgcls0ciDOHvckCQ==
+  dependencies:
+    "@electron-forge/plugin-base" "7.8.3"
+    "@electron-forge/shared-types" "7.8.3"
 
 "@electron-forge/publisher-base@7.8.1":
   version "7.8.1"
@@ -161,6 +168,16 @@
   integrity sha512-guLyGjIISKQQRWHX+ugmcjIOjn2q/BEzCo3ioJXFowxiFwmZw/oCZ2KlPig/t6dMqgUrHTH5W/F0WKu0EY4M+Q==
   dependencies:
     "@electron-forge/tracer" "7.8.1"
+    "@electron/packager" "^18.3.5"
+    "@electron/rebuild" "^3.7.0"
+    listr2 "^7.0.2"
+
+"@electron-forge/shared-types@7.8.3":
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/@electron-forge/shared-types/-/shared-types-7.8.3.tgz#0b7c54b3fa09bfdc931e22d254b70f1685744fde"
+  integrity sha512-gkZtD7ALXHPDOthJo1rQYLDNfG09fdDRMWvjEgaXdF3Z69xXFfnOWPNuOkRUODNalMnuuGs6l7jDl+QFQgHlDg==
+  dependencies:
+    "@electron-forge/tracer" "7.8.3"
     "@electron/packager" "^18.3.5"
     "@electron/rebuild" "^3.7.0"
     listr2 "^7.0.2"
@@ -217,6 +234,13 @@
   version "7.8.1"
   resolved "https://registry.yarnpkg.com/@electron-forge/tracer/-/tracer-7.8.1.tgz#87e2f63cba05a73f26ace903b2b7435ae8474bb5"
   integrity sha512-r2i7aHVp2fylGQSPDw3aTcdNfVX9cpL1iL2MKHrCRNwgrfR+nryGYg434T745GGm1rNQIv5Egdkh5G9xf00oWA==
+  dependencies:
+    chrome-trace-event "^1.0.3"
+
+"@electron-forge/tracer@7.8.3":
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/@electron-forge/tracer/-/tracer-7.8.3.tgz#c2c27fb9b2bd770b39f02bc3ae6e254064421af6"
+  integrity sha512-YVVDaPEUOvR1z+DDdj8wR/vO9OSlC91wz4/2Iqe9rqQz8sztnnQBClMAZTqu9bkDTFyHrns8j8v7tPVuVS6ULQ==
   dependencies:
     chrome-trace-event "^1.0.3"
 
