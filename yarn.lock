@@ -1002,10 +1002,10 @@ electron-winstaller@^5.3.0:
   optionalDependencies:
     "@electron/windows-sign" "^1.1.2"
 
-electron@37.2.2:
-  version "37.2.2"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-37.2.2.tgz#d5bf39bdf016368736101148d2b40996f64e3c25"
-  integrity sha512-qEIUs+3elu7wOfzLEtLz4Innfe+8nQyhLh9qjrJY0d0MxdRolLMDUD9QwAQ743vDZ+bUg+gqwigzP7kV78S3hA==
+electron@37.2.6:
+  version "37.2.6"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-37.2.6.tgz#bc299eb21daf5bd8242f9b3a6119e19b4ef226cd"
+  integrity sha512-Ns6xyxE+hIK5UlujtRlw7w4e2Ju/ImCWXf1Q/PoOhc0N3/6SN6YW7+ujCarsHbxWnolbW+1RlkHtdklUJpjbPA==
   dependencies:
     "@electron/get" "^2.0.0"
     "@types/node" "^22.7.7"
